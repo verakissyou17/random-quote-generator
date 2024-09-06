@@ -1,9 +1,12 @@
 {
+  "homepage":"https://verakissyou17/github.io/random-quote-generator",
   "name": "random-quote-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
